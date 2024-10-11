@@ -1,0 +1,48 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.globo{
+font-size: 10px;
+font-family: 'Globotipo Variable', 'Globotipo', 'Globotipo UI', 'Globotipo Display', 'Globotipo Book', Avenir, Ubuntu, -apple-system, system-ui, BlinkMacSystemFont, sans-serif;
+}
+.glob{
+    display: flex;
+    gap: 10px;
+    position:relative;
+    left: 50px;
+}
+
+a {
+    text-decoration: var(--font-text-decoration-null);
+}
+
+.gl:hover {
+    color: #0669de;
+    text-decoration: underline;
+    
+}
+
+.gl {
+    color: #0669de;
+}
+
+.g1{
+    color: brown;
+}
+.ge{
+    color: rgba(6, 209, 30, 0.782);
+}
+.gs{
+ color:rgba(255, 191, 0, 0.745) ;
+}
+.gp{
+    color: rgba(255, 0, 98, 0.681);
+}
+.ca{
+    color: rgb(254, 185, 58);
+}
+header{
+    background-color: forestgreen;
+    padding: 50px;
+}
