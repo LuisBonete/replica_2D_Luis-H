@@ -28,16 +28,16 @@ a {
 }
 
 .g1{
-    color: brown;
+    color: #C4170C;
 }
 .ge{
-    color: rgba(6, 209, 30, 0.782);
+    color: #06AA48;
 }
 .gs{
- color:rgba(255, 191, 0, 0.745) ;
+ color:#FF6700 ;
 }
 .gp{
-    color: rgba(255, 0, 98, 0.681);
+    color: #FB0334;
 }
 .ca{
     color: rgb(254, 185, 58);
