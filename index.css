@@ -1,6 +1,8 @@
 body{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+
 }
 .globo{
 font-size: 10px;
@@ -8,41 +10,116 @@ font-family: 'Globotipo Variable', 'Globotipo', 'Globotipo UI', 'Globotipo Displ
 }
 .glob{
     display: flex;
-    gap: 10px;
+    gap: 20px;
     position:relative;
     left: 50px;
 }
-
 a {
     text-decoration: var(--font-text-decoration-null);
 }
-
 .gl:hover {
     color: #0669de;
     text-decoration: underline;
     
 }
-
 .gl {
     color: #0669de;
+ 
 }
-
+.g1:hover{
+   color: #C4170C;
+   text-decoration: underline;
+}z
 .g1{
     color: #C4170C;
+}
+.ge:hover{
+    color: #06AA48;
+    text-decoration: underline;
 }
 .ge{
     color: #06AA48;
 }
+.gs:hover{
+    color: #FF6700;
+    text-decoration: underline;
+}
 .gs{
  color:#FF6700 ;
+}
+.gp:hover{
+    color: #FB0334;
+    text-decoration: underline;
 }
 .gp{
     color: #FB0334;
 }
+.ca:hover{
+    color:  rgb(254, 185, 58);
+    text-decoration: underline;
+}
 .ca{
     color: rgb(254, 185, 58);
 }
-header{
-    background-color: forestgreen;
-    padding: 50px;
+.sp:hover{
+    color: black;
+    text-decoration: underline;
 }
+.sp{
+    color: black;
+}
+.lado{
+    display: flex;
+    gap: 25px;
+    position:absolute;
+    right: 70px;
+}
+.as:hover{
+    color: #0669de;
+    
+}
+.as{
+    color: black;
+}
+.fa-duotone{
+    color: black;
+    font-size:  15px;
+    position: relative;
+    left: 10px;
+    top: 20px;
+}
+.co:hover{
+    color: #0669de;
+
+}
+.co{
+    color: black;
+}
+
+header{
+    background-color: #06AA48;
+    padding: 50px;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+
+}
+
+
+
+.fa-solid {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-size: "Roboto", sans-serif;;
+}
+.logo{
+    font-size: 55px;
+    color: rgb(255, 255, 255);
+    font-family: var(--codex-font-family-display,"glbOpenSans","Open Sans","opensans","Globotipo Variable",sans-serif);
+}
+.log{
+    position: absolute;
+    left: 50% ;
+    bottom:70% ;
+}
+
