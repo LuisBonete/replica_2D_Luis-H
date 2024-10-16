@@ -5,7 +5,7 @@ body{
 
 }
 .globo{
-font-size: 10px;
+font-size: 17px;
 font-family: 'Globotipo Variable', 'Globotipo', 'Globotipo UI', 'Globotipo Display', 'Globotipo Book', Avenir, Ubuntu, -apple-system, system-ui, BlinkMacSystemFont, sans-serif;
 }
 .glob{
@@ -81,13 +81,14 @@ a {
 .as{
     color: black;
 }
-.fa-duotone{
+.fa-user{
     color: black;
     font-size:  15px;
     position: relative;
     left: 10px;
     top: 20px;
 }
+
 .co:hover{
     color: #0669de;
 
@@ -98,28 +99,54 @@ a {
 
 header{
     background-color: #06AA48;
-    padding: 50px;
+    padding: 30px;
     margin: 0;
     display: flex;
     gap: 20px;
-
+    
 }
 
-
-
-.fa-solid {
-    color: rgb(0, 0, 0);
+.fa-bars {
+    color: rgb(255, 255, 255);
     font-size: 20px;
     font-size: "Roboto", sans-serif;;
 }
-.logo{
-    font-size: 55px;
-    color: rgb(255, 255, 255);
-    font-family: var(--codex-font-family-display,"glbOpenSans","Open Sans","opensans","Globotipo Variable",sans-serif);
+.fa-shield{
+    color: white;
+    font-size:20px;
 }
-.log{
+.header-title {
+    margin: 0; /* Remove margens padrão */
+    padding: 0 15px; /* Adiciona algum espaço interno */
+    font-size: 60px; /* Ajusta o tamanho da fonte */
+    color: #ffffff; /* Cor do texto */
     position: absolute;
-    left: 50% ;
-    bottom:70% ;
+    top:40px;
+    left: 45%;
+    font-family: 'Globotipo Variable', 'Globotipo', 'Globotipo UI', 'Globotipo Display', 'Globotipo Book', Avenir, Ubuntu, -apple-system, system-ui, BlinkMacSystemFont, sans-serif;
+
+}
+.search-form {
+    display: flex;
+    align-items: center;
+    margin-left: auto; /* Empurra a barra de pesquisa para a direita */
+}
+
+.search-input {
+    padding: 10px;
+    border: 1px solid #ffffff2a;
+    border-radius: 4px;
+    margin-right: 5px;
+    background-color: rgba(0, 0, 0, .15); /* Fundo translúcido */
+}
+
+.search-input::placeholder {
+    color: #ffffff; /* Cor do placeholder (dica) */
+    font-family: "Roboto", sans-serif;
+    font-weight: bold ;
+}
+.fa-magnifying-glass {
+    color: white;
+    font-size: 18px;
 }
 
