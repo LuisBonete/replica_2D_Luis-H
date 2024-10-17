@@ -1,135 +1,153 @@
-body{
+body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
 
+.globo {
+    font-size: 17px;
+    font-family: 'Globotipo Variable', 'Globotipo', 'Globotipo UI', 'Globotipo Display', 'Globotipo Book', Avenir, Ubuntu, -apple-system, system-ui, BlinkMacSystemFont, sans-serif;
 }
-.globo{
-font-size: 17px;
-font-family: 'Globotipo Variable', 'Globotipo', 'Globotipo UI', 'Globotipo Display', 'Globotipo Book', Avenir, Ubuntu, -apple-system, system-ui, BlinkMacSystemFont, sans-serif;
-}
-.glob{
+
+.glob {
     display: flex;
     gap: 20px;
-    position:relative;
+    position: relative;
     left: 50px;
 }
+
 a {
-    text-decoration: var(--font-text-decoration-null);
+    text-decoration: none; /* Corrigi a referência de var inexistente */
 }
+
 .gl:hover {
     color: #0669de;
     text-decoration: underline;
-    
 }
+
 .gl {
     color: #0669de;
- 
 }
-.g1:hover{
-   color: #C4170C;
-   text-decoration: underline;
-}z
-.g1{
+
+.g1:hover {
+    color: #C4170C;
+    text-decoration: underline;
+}
+
+.g1 {
     color: #C4170C;
 }
-.ge:hover{
+
+.ge:hover {
     color: #06AA48;
     text-decoration: underline;
 }
-.ge{
+
+.ge {
     color: #06AA48;
 }
-.gs:hover{
+
+.gs:hover {
     color: #FF6700;
     text-decoration: underline;
 }
-.gs{
- color:#FF6700 ;
+
+.gs {
+    color: #FF6700;
 }
-.gp:hover{
+
+.gp:hover {
     color: #FB0334;
     text-decoration: underline;
 }
-.gp{
+
+.gp {
     color: #FB0334;
 }
-.ca:hover{
-    color:  rgb(254, 185, 58);
+
+.ca:hover {
+    color: rgb(254, 185, 58);
     text-decoration: underline;
 }
-.ca{
+
+.ca {
     color: rgb(254, 185, 58);
 }
-.sp:hover{
+
+.sp:hover {
     color: black;
     text-decoration: underline;
 }
-.sp{
+
+.sp {
     color: black;
 }
-.lado{
+
+.lado {
     display: flex;
     gap: 25px;
-    position:absolute;
+    position: absolute;
     right: 70px;
 }
-.as:hover{
+
+.as:hover {
     color: #0669de;
-    
 }
-.as{
+
+.as {
     color: black;
 }
-.fa-user{
+
+.fa-user {
     color: black;
-    font-size:  15px;
+    font-size: 15px;
     position: relative;
     left: 10px;
     top: 20px;
 }
 
-.co:hover{
+.co:hover {
     color: #0669de;
-
 }
-.co{
+
+.co {
     color: black;
 }
 
-header{
+header {
     background-color: #06AA48;
     padding: 30px;
     margin: 0;
     display: flex;
     gap: 20px;
-    
 }
 
 .fa-bars {
     color: rgb(255, 255, 255);
     font-size: 20px;
-    font-size: "Roboto", sans-serif;;
+    font-family: "Roboto", sans-serif;
 }
-.fa-shield{
+
+.fa-shield {
     color: white;
-    font-size:20px;
+    font-size: 20px;
 }
+
 .header-title {
-    margin: 0; /* Remove margens padrão */
-    padding: 0 15px; /* Adiciona algum espaço interno */
-    font-size: 60px; /* Ajusta o tamanho da fonte */
-    color: #ffffff; /* Cor do texto */
+    margin: 0;
+    padding: 0 15px;
+    font-size: 60px;
+    color: #ffffff;
     position: absolute;
-    top:40px;
+    top: 40px;
     left: 45%;
     font-family: 'Globotipo Variable', 'Globotipo', 'Globotipo UI', 'Globotipo Display', 'Globotipo Book', Avenir, Ubuntu, -apple-system, system-ui, BlinkMacSystemFont, sans-serif;
-
 }
+
 .search-form {
     display: flex;
     align-items: center;
-    margin-left: auto; /* Empurra a barra de pesquisa para a direita */
+    margin-left: auto;
 }
 
 .search-input {
@@ -137,16 +155,171 @@ header{
     border: 1px solid #ffffff2a;
     border-radius: 4px;
     margin-right: 5px;
-    background-color: rgba(0, 0, 0, .15); /* Fundo translúcido */
+    background-color: rgba(0, 0, 0, .15);
 }
 
 .search-input::placeholder {
-    color: #ffffff; /* Cor do placeholder (dica) */
+    color: #ffffff;
     font-family: "Roboto", sans-serif;
-    font-weight: bold ;
+    font-weight: bold;
 }
+
 .fa-magnifying-glass {
     color: white;
     font-size: 18px;
 }
+.teletransporte {
+    position: absolute; 
+    left:6%;
+    top: 30%;
+    height: 700px;
+    width: 600px;
+    object-fit: cover;
+  }
+  
+  .sombra {
+    position: absolute;
+    background-color: black;
+    width: 600px;
+    height: 700px;
+    opacity: 0.4;
+    left: 6%;
+    top: 30%;
+  }
+  
+  .teleporte, .arqueologia {
+    text-decoration: none;
+  }
+  
+  .teleportada {
+    position: absolute;
+    font-family:'CNN Sans Display', helveticaneue, Helvetica, Arial, Utkal, sans-serif;
+    font-size: 40px;
+    left:7%;
+    top: 90%;
+    color: white;
+    text-shadow: -1px 1px 2px #000,  
+                  1px 2px 6px #000,
+                  1px -1px 0 #000,
+                  -1px -1px 0 #000;
+    padding: 0px;
+    margin: 0px;             
+  }
+  
+  .teleportada2 {
+    position: absolute;
+    font-family:'CNN Sans Display', helveticaneue, Helvetica, Arial, Utkal, sans-serif;
+    font-size: 20px;
+    left: 7%;
+    top: 120%;
+    color: white;
+    text-shadow: 0px 0px 0px #000,  
+                  0px 1px 0px #000,
+                  1px -1px 0 #000,
+                  -1px -1px 0 #000;
+    padding: 0px;
+    margin: 0px;  
+    
+  }
+  
+  .arqueologiamaia {
+    position: absolute;
+    left: 51%;
+    top: 30%;
+    width: 600px;
+    height: 330px;
+    object-fit: cover;
+    max-height: 360px;
+  }
+  
+  .sombra2 {
+    position: absolute;
+    background-color: black;
+    width: 600px;
+    height: 330px;
+    opacity: 0.4;
+    left: 51%;
+    top: 30%;
+  }
+  
+  .maia {
+    position: absolute;
+    font-family: 'CNN Sans Display', helveticaneue, Helvetica, Arial, Utkal, sans-serif;
+    font-size: 28px;
+    left: 52%;
+    top: 60%;
+    color: white;
+    text-shadow: -1px 1px 2px #000,  
+                  1px 2px 6px #000,
+                  1px -1px 0 #000,
+                  -1px -1px 0 #000;
+    padding: 0px;
+    margin: 0px;    
+      
+  }
+  
+  .maia2 {
+      position: absolute;
+      font-family:'CNN Sans Display', helveticaneue, Helvetica, Arial, Utkal, sans-serif;
+      font-size: 16px;
+      left: 52%;
+      top: 75%;
+      color: white;
+      text-shadow: -1px 1px 2px #000,  
+                    1px 2px 6px #000,
+                    1px -1px 0 #000,
+                    -1px -1px 0 #000;
+      padding: 0px;
+      margin: 0px;
+  }
+  
+  .bateriaimagem {
+    position: absolute;
+    top: 90%;
+    left: 51%;
+    object-fit: cover;
+    width: 600px;
+    max-height: 330px;
+  }
+  
+  .sombra3 {
+    position: absolute;
+    background-color: black;
+    width: 600px;
+    height: 330px;
+    opacity: 0.4;
+    left: 51%;
+    top: 90%;
+  
+  }
+  
+  .bateri {
+    position: absolute;
+    font-family:'CNN Sans Display', helveticaneue, Helvetica, Arial, Utkal, sans-serif;
+    font-size: 26px;
+    left: 52%;
+    top: 120%;
+    color: white;
+    text-shadow: -1px 1px 2px #000,  
+                  1px 2px 6px #000,
+                  1px -1px 0 #000,
+                  -1px -1px 0 #000;
+    padding: 0px;
+    margin: 0px;  
+  }
+  
+  .batata {
+    position: absolute;
+    font-family: 'CNN Sans Display', helveticaneue, Helvetica, Arial, Utkal, sans-serif;
+    font-size: 15px;
+    left: 52%;
+    top: 135%;
+    color: white;
+    text-shadow: -1px 1px 2px #000,  
+                  1px 2px 6px #000,
+                  1px -1px 0 #000,
+                  -1px -1px 0 #000;
+    padding: 0px;
+    margin: 0px;
+  }
 
