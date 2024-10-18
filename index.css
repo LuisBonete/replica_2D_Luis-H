@@ -171,8 +171,8 @@ header {
 }
 .teletransporte {
     position: absolute; 
-    left:6%;
-    top: 30%;
+    left: 50px;
+    top: 200px;
     height: 700px;
     width: 600px;
     object-fit: cover;
@@ -184,8 +184,8 @@ header {
     width: 600px;
     height: 700px;
     opacity: 0.4;
-    left: 6%;
-    top: 30%;
+    left: 50px;
+    top: 200px;
   }
   
   .teleporte, .arqueologia {
@@ -196,8 +196,8 @@ header {
     position: absolute;
     font-family:'CNN Sans Display', helveticaneue, Helvetica, Arial, Utkal, sans-serif;
     font-size: 40px;
-    left:7%;
-    top: 90%;
+    left:60px;
+    top: 650px;
     color: white;
     text-shadow: -1px 1px 2px #000,  
                   1px 2px 6px #000,
@@ -211,8 +211,8 @@ header {
     position: absolute;
     font-family:'CNN Sans Display', helveticaneue, Helvetica, Arial, Utkal, sans-serif;
     font-size: 20px;
-    left: 7%;
-    top: 120%;
+    left: 60px;
+    top: 800px;
     color: white;
     text-shadow: 0px 0px 0px #000,  
                   0px 1px 0px #000,
@@ -225,8 +225,8 @@ header {
   
   .arqueologiamaia {
     position: absolute;
-    left: 51%;
-    top: 30%;
+    left: 670px;
+    top: 200px;
     width: 600px;
     height: 330px;
     object-fit: cover;
@@ -239,16 +239,16 @@ header {
     width: 600px;
     height: 330px;
     opacity: 0.4;
-    left: 51%;
-    top: 30%;
+    left: 670px;
+    top: 200px;
   }
   
   .maia {
     position: absolute;
     font-family: 'CNN Sans Display', helveticaneue, Helvetica, Arial, Utkal, sans-serif;
     font-size: 28px;
-    left: 52%;
-    top: 60%;
+    left: 680px;
+    top: 400px;
     color: white;
     text-shadow: -1px 1px 2px #000,  
                   1px 2px 6px #000,
@@ -263,8 +263,8 @@ header {
       position: absolute;
       font-family:'CNN Sans Display', helveticaneue, Helvetica, Arial, Utkal, sans-serif;
       font-size: 16px;
-      left: 52%;
-      top: 75%;
+      left: 680px;
+      top: 470px;
       color: white;
       text-shadow: -1px 1px 2px #000,  
                     1px 2px 6px #000,
@@ -276,8 +276,8 @@ header {
   
   .bateriaimagem {
     position: absolute;
-    top: 90%;
-    left: 51%;
+    top: 570px;
+    left: 670px;
     object-fit: cover;
     width: 600px;
     max-height: 330px;
@@ -289,8 +289,8 @@ header {
     width: 600px;
     height: 330px;
     opacity: 0.4;
-    left: 51%;
-    top: 90%;
+    left: 670px;
+    top: 570px;
   
   }
   
@@ -298,8 +298,8 @@ header {
     position: absolute;
     font-family:'CNN Sans Display', helveticaneue, Helvetica, Arial, Utkal, sans-serif;
     font-size: 26px;
-    left: 52%;
-    top: 120%;
+    left: 680px;
+    top: 770px;
     color: white;
     text-shadow: -1px 1px 2px #000,  
                   1px 2px 6px #000,
@@ -313,8 +313,8 @@ header {
     position: absolute;
     font-family: 'CNN Sans Display', helveticaneue, Helvetica, Arial, Utkal, sans-serif;
     font-size: 15px;
-    left: 52%;
-    top: 135%;
+    left: 680px;
+    top: 840px;
     color: white;
     text-shadow: -1px 1px 2px #000,  
                   1px 2px 6px #000,
@@ -359,7 +359,6 @@ header {
     font-weight: bold;
     font-family:'CNN Sans Display', helveticaneue, Helvetica, Arial, Utkal, sans-serif;
     position:relative;
-    bottom: 20px;
     color: #06AA48;
 }
 .noticia-titulo:hover{
@@ -393,7 +392,6 @@ header {
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     position: relative;
-    right: 40px;
     top:130px;
     font-family:'CNN Sans Display', helveticaneue, Helvetica, Arial, Utkal, sans-serif;
 }
